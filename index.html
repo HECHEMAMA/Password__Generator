@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style__password__generator.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <main>
+        <fieldset>
+            <legend>Generator</legend>
+            <div class="password">
+                <input type="text" name="" id="password" value="">
+                <label for="copy">
+                    <span>
+                        <input type="checkbox" name="" id="copy">
+                        Copy
+                    </span>
+                </label>
+            </div>
+            <div>
+                <!-- Password Length -->
+                <input class="length" type="range" name="length" id="length" min="5" max="25" value="5" step="1">
+                <p>Value: <span id="value"></span></p>
+            </div>
+            <div>
+                <button type="button" id="generate">Generate</button>
+            </div>
+        </fieldset>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
