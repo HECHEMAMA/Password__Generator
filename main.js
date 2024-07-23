@@ -24,7 +24,7 @@ range__length.oninput = function () {
 
 range__length.addEventListener("mousemove", function () {
     var x = range__length.value;
-    var color = 'linear-gradient(90deg, rgba(135, 255, 135, 0.904)' + ((.05 * x) * 100) + '%, rgb(255, 124, 124)' + ((.05 * x) * 100) + '%)';
+    var color = 'linear-gradient(90deg, rgba(135, 255, 135, 0.904)' + x + '%, rgb(244, 244, 244)' + ((.07 * x) * 50) + '%)';
     range__length.style.background = color;
 })
 
