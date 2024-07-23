@@ -1,5 +1,9 @@
-## Hi there
-
-<div align="center" >
-    <img src="img/movie.gif" width=200 heigth=auto align="center">
+<div align="center">
+    <span align="left">
+    <h1>
+    Hi there!
+    </h1>
+    <img src="img/movie.gif" width=200 heigth=auto>
+    </span>
 </div>
+
